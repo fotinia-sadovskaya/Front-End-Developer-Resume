@@ -285,3 +285,84 @@ ol {
 .education-period-separator {
   color: #000;
 }
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px;
+  }
+  .main-content {
+    padding: 40px;
+  }
+  .sidebar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 240px;
+  }
+  .my-photo {
+    width: 240px;
+  }
+
+  .sidebar-content {
+    padding: 20px;
+  }
+  .contacts-link,
+  .my-projects-list {
+    font-size: 12px;
+  }
+  .my-name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  .sidebar {
+    width: 220px;
+  }
+  .my-photo {
+    width: 220px;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .sidebar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sidebar-content {
+    padding: 10px;
+  }
+  .contacts-link,
+  .my-projects-list {
+    font-size: 11px;
+  }
+  .my-name {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .my-photo {
+    width: 100%;
+  }
+  .sidebar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .contacts-link,
+  .my-projects-list {
+    font-size: 14px;
+  }
+}
